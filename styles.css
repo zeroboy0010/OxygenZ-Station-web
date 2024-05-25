@@ -10,31 +10,34 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
     text-align: center;  /* Center align the content inside the container */
 }
 
 header {
-    background-color: #ffffff;  /* Change header background to white */
+    background-color: #fff;  /* Change header background to white */
     color: #333;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Add subtle shadow to the header */
 }
 
 header .logo {
-    height: 150px;  /* Increase logo size */
+    height: 100px;  /* Increase logo size */
     margin-bottom: 10px;  /* Add space below the logo */
 }
 
 header h1 {
-    margin: 10px 0 0;  /* Adjust margin to give space above and below the heading */
+    margin: 0;
+    font-size: 24px;
     color: #333;  /* Change text color to match overall color scheme */
+}
+
+nav {
+    margin-top: 20px;  /* Add margin above the navigation */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0 0;  /* Add margin above the navigation */
 }
 
 nav ul li {
@@ -48,7 +51,7 @@ nav ul li a {
 }
 
 .hero, .news, .behind-scenes, .artists, .featured-songs {
-    background-color: #7e4e86;  /* Item background color */
+    background-color: #9C27B0;  /* Item background color */
     padding: 20px 0;
     margin-bottom: 20px;
     border-radius: 5px;
