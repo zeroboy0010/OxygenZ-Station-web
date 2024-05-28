@@ -1,90 +1,61 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F3E5F5;  /* Background color */
-    color: #333;
+    background-color: #e6e0f7;
+    color: #000;
 }
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;  /* Center align the content inside the container */
-}
-
-header {
-    background-color: #fff;  /* Change header background to white */
-    color: #333;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Add subtle shadow to the header */
-}
-
-header .logo {
-    height: 100px;  /* Increase logo size */
-    margin-bottom: 10px;  /* Add space below the logo */
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #333;  /* Change text color to match overall color scheme */
-}
-
-nav {
-    margin-top: 20px;  /* Add margin above the navigation */
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #333;  /* Change navigation link color */
-    text-decoration: none;
-}
-
-.hero, .news, .behind-scenes, .artists, .featured-songs {
-    background-color: #9C27B0;  /* Item background color */
-    padding: 20px 0;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    color: #fff;  /* Ensure text is readable on the purple background */
-}
-
-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.movies, .news-articles, .scenes, .artists-list, .songs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.movie, .news-article, .scene, .artist, .song {
-    width: 30%;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.movie img, .scene img, .artist img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #333;
+.header, .footer {
+    background-color: #6200ea;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+.header img, .footer img {
+    max-width: 100px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    background-color: #6200ea;
+    color: #fff;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+.movie-title {
+    margin: 20px 0;
+}
+.movie-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-poster img {
+    max-width: 100%;
+    height: auto;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.details div {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footer-text {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
